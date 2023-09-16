@@ -152,7 +152,7 @@ const book = getBook(2);
 // author;
 
 //Object Destructuring
-const { title, author, publicationDate, genres } = book;
+const { title, author, publicationDate, genres, hasMovieAdaptation } = book;
 console.log(author, title, publicationDate, genres);
 
 // const primaryGenre = genres[0];
