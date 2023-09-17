@@ -155,4 +155,11 @@ const newBook = {
 const booksAfterAdd = [...books, newBook];
 
 // Delete Book object
-const booksAfterDelete = 
+const booksAfterDelete = booksAfterAdd.filter((book) => book.id != 6);
+console.log(booksAfterDelete);
+
+//Update a book object
+
+const booksAfterUpdate = booksAfterDelete.map((book) =>
+  book.id === 1 ? { ...book, pages: 1 } : book
+);
