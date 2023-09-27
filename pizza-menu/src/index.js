@@ -169,6 +169,7 @@ function Order({ closeHour, openHour }) {
         online.
       </p>
       <button className="btn">Order</button>
+      <h1></h1>
     </div>
   );
 }
